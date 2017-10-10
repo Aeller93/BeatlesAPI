@@ -1,5 +1,5 @@
 # BeatlesAPI
-Programming challenge done with PHP
+Programming challenge done with PHP <br>
 John, Paul, George and Ringo are planning to go on a magical mystery tour in their yellow submarine. In order for all their friends to be aboard they need a system to find out where to find them.
  
 The attached json file includes their guests, who invited them and their pickup locations. 
