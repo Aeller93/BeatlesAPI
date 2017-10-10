@@ -16,13 +16,13 @@ PD: The application loads the json data source from 'http://localhost' in GuestM
 
 These are the URLs for the required functions: 
 
-- Find guests by beatle and the number of guests
+- Find guests by beatle and the number of guests: <br>
 http://localhost/BeatlesAPI/Controllers/GuestController.php?function=GuestByBeatle&host=[NAME]
 
-- Find guests by location and number of guests:
+- Find guests by location and number of guests: <br>
 http://localhost/BeatlesAPI/Controllers/GuestController.php?function=GuestByLocation&location=[LOCATION]
 
-- Album leaderboard: 
+- Album leaderboard: <br>
 http://localhost/BeatlesAPI/Controllers/GuestController.php?function=AlbumRanking
  
 
