@@ -9,16 +9,16 @@ if(function_exists($_GET['function'])){
     $fcn = $_GET['function'];
     switch($fcn){
 	case 'GuestByBeatle':
-        if(!empty($_GET['host'])){
-            $param = $_GET['host'];
-            GuestByBeatle($param);
-			break;
-        }
+		if(!empty($_GET['host'])){
+		    $param = $_GET['host'];
+		    GuestByBeatle($param);
+		    break;
+		}
 	case 'GuestByLocation':
 		if(!empty($_GET['location'])){
 		    $param = $_GET['location'];
 		    GuestByLocation($param);
-			break;
+		    break;
 		}
 	case 'AlbumRanking':
 		AlbumRanking();
